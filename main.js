@@ -70,6 +70,7 @@
 function calc(...numbers) {
   for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
+    console.log("developer");
   }
 }
 calc(10, 10, 101);
